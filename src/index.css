@@ -167,6 +167,11 @@ body {
   .caro-txt {
     font-size: 1rem;
   }
+   .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
   .navbar::before,
@@ -175,6 +180,11 @@ body {
   }
   .caro-txt {
     font-size: 1rem;
+  }
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
